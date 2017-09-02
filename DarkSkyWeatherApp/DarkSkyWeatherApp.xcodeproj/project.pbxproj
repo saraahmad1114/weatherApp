@@ -15,6 +15,7 @@
 		1B506D4F1F5B61EF00DDEB85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B506D4D1F5B61EF00DDEB85 /* LaunchScreen.storyboard */; };
 		1B506D5A1F5B61EF00DDEB85 /* DarkSkyWeatherAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B506D591F5B61EF00DDEB85 /* DarkSkyWeatherAppTests.swift */; };
 		1B506D651F5B61EF00DDEB85 /* DarkSkyWeatherAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B506D641F5B61EF00DDEB85 /* DarkSkyWeatherAppUITests.swift */; };
+		1B506D731F5B623F00DDEB85 /* DarkSkyAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B506D721F5B623F00DDEB85 /* DarkSkyAPIClient.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		1B506D601F5B61EF00DDEB85 /* DarkSkyWeatherAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DarkSkyWeatherAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B506D641F5B61EF00DDEB85 /* DarkSkyWeatherAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DarkSkyWeatherAppUITests.swift; sourceTree = "<group>"; };
 		1B506D661F5B61EF00DDEB85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B506D721F5B623F00DDEB85 /* DarkSkyAPIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = DarkSkyAPIClient.swift; path = ../../../Desktop/DarkSkyAPIClient.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 		1B506D351F5B61EF00DDEB85 = {
 			isa = PBXGroup;
 			children = (
+				1B506D721F5B623F00DDEB85 /* DarkSkyAPIClient.swift */,
 				1B506D401F5B61EF00DDEB85 /* DarkSkyWeatherApp */,
 				1B506D581F5B61EF00DDEB85 /* DarkSkyWeatherAppTests */,
 				1B506D631F5B61EF00DDEB85 /* DarkSkyWeatherAppUITests */,
@@ -265,6 +268,7 @@
 				1B506D441F5B61EF00DDEB85 /* ViewController.swift in Sources */,
 				1B506D4A1F5B61EF00DDEB85 /* DarkSkyWeatherApp.xcdatamodeld in Sources */,
 				1B506D421F5B61EF00DDEB85 /* AppDelegate.swift in Sources */,
+				1B506D731F5B623F00DDEB85 /* DarkSkyAPIClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +511,7 @@
 				1B506D6B1F5B61EF00DDEB85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1B506D6C1F5B61EF00DDEB85 /* Build configuration list for PBXNativeTarget "DarkSkyWeatherAppTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +520,7 @@
 				1B506D6E1F5B61EF00DDEB85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1B506D6F1F5B61EF00DDEB85 /* Build configuration list for PBXNativeTarget "DarkSkyWeatherAppUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +529,7 @@
 				1B506D711F5B61EF00DDEB85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
